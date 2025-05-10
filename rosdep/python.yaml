@@ -10759,7 +10759,9 @@ python3-validators:
     focal: null
 python3-vcstool:
   alpine: [vcstool]
-  debian: [python3-vcstool]
+  debian:
+    '*': [python3-vcstool]
+    bullseye: [vcstool]
   fedora: [python3-vcstool]
   gentoo: [vcstool]
   macports:
