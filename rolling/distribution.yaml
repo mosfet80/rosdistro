@@ -1326,7 +1326,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-gbp/compass-release.git
-      version: 3.0.2-2
+      version: 3.0.3-1
     source:
       type: git
       url: https://github.com/ctu-vras/compass.git
